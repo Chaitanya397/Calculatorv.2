@@ -1,0 +1,50 @@
+<html>
+    <head>
+      <meta name="descripton" content="Calculator">
+        <title> Calculator</title>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="shortcut icon " type="image/x-icon" href="1200px-Calculator_icon.svg.png " />
+    </head>
+    <body>
+        <h1> Calculator</h1>
+        <div class="container">
+            <div class="calculator">
+                <input type="text" name="screen" id="output_screen">
+                <table>
+                    <tr>
+                        <th><button value="1" onclick="dis('1')">1</button></th>
+                        <th><button value="2" onclick="dis('2')">2</button></th>
+                        <th><button value="3" onclick="dis('3')" >3</button></th>
+                        <th><button value="*" onclick="dis('*')">X</button></th>
+                       </tr>
+                       <tr>
+                         <th><button value="4" onclick="dis('4')">4</button></th>
+                           <th><button value="5" onclick="dis('5')" >5</button></th>
+                           <th><button value="6" onclick="dis('6')">6</button></th>
+                           <th><button value="/" onclick="dis('/')">÷</button></th>
+                           
+                       </tr>
+                       <tr>
+                         <th><button value="7" onclick="dis('7')">7</button></th>
+                           <th><button value="8" onclick="dis('8')">8</button></th>
+                           <th><button value="9" onclick="dis('9')">9</button></th>
+                           <th><button value="-" onclick="dis('-')">-</button></th>                   
+                       </tr>
+                       <tr>
+                         <th><button value="C" onclick="clr()">C</button></th>   
+                           <th><button value="0" onclick="dis(0)">0</button></th>
+                           <th><button value="=" onclick="solve()">=</button></th>
+                           <th><button value="+" onclick="dis('+')">+</button></th>
+                       </tr>
+            
+            
+
+            </table>
+            </div>
+                
+        
+          
+        </div>
+    </body>
+</html>
